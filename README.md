@@ -40,29 +40,25 @@ Implementar una aplicación en Apache Spark que procese, analice y almacene un c
    ```bash
    git clone https://github.com/bctor95/EDA_Ventas_Spark.git
    cd EDA_Ventas_Spark
-Verificar la instalación de Spark:
-
 2. Verificar la instalación de Spark:
 
 spark-submit --version
-Ejecutar la aplicación:
+
 
 3. Ejecutar la aplicación:
 
 spark-submit ventas_eda.py
-Esperar a que finalice la ejecución.
+
+4. Esperar a que finalice la ejecución.
 Se generará una carpeta llamada:
 
-4. Ejecutar la aplicación:
-
 resultados/ventas_procesadas
-Verificar los resultados procesados:
+
 
 5. Verificar los resultados procesados:
 
-ls resultados/ventas_procesadas
+  ls resultados/ventas_procesadas
 
-Resultados Esperados
 .Estructura del esquema del DataFrame.
 
 .Cantidad de registros válidos procesados.
