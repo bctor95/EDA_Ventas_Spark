@@ -57,7 +57,9 @@ resultados/ventas_procesadas
 
 5. Verificar los resultados procesados:
 
-  ls resultados/ventas_procesadas
+ ls resultados/ventas_procesadas
+
+## Resultados Esperado
 
 .Estructura del esquema del DataFrame.
 
@@ -69,14 +71,15 @@ resultados/ventas_procesadas
 
 .Archivos finales almacenados en formato Parquet.
 
-Autor
+
+## Autor
 Brayan Camilo Torres Torres
 Estudiante de Ingeniería de Sistemas
 
- Repositorio del Proyecto
+## Repositorio del Proyecto
  https://github.com/bctor95/EDA_Ventas_Spark
 
-Referencias
+## Referencias
 Macías, M. & Gómez, M. (2015). Introducción a Apache Spark: para empezar a programar el big data. Editorial UOC.
 
 Montoya Suárez, L. & Gil Restrepo, G. A. (2018). Actualidad e importancia de la implementación de Big Data utilizando las herramientas Hadoop y Spark.
