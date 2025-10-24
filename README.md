@@ -40,5 +40,51 @@ Implementar una aplicación en Apache Spark que procese, analice y almacene un c
    ```bash
    git clone https://github.com/bctor95/EDA_Ventas_Spark.git
    cd EDA_Ventas_Spark
-# EDA_Ventas_Spark
-Aplicación de procesamiento batch con Apache Spark para análisis exploratorio de datos (EDA) sobre ventas.
+Verificar la instalación de Spark:
+
+2. Verificar la instalación de Spark:
+
+spark-submit --version
+Ejecutar la aplicación:
+
+3. Ejecutar la aplicación:
+
+spark-submit ventas_eda.py
+Esperar a que finalice la ejecución.
+Se generará una carpeta llamada:
+
+4. Ejecutar la aplicación:
+
+resultados/ventas_procesadas
+Verificar los resultados procesados:
+
+5. Verificar los resultados procesados:
+
+ls resultados/ventas_procesadas
+
+Resultados Esperados
+.Estructura del esquema del DataFrame.
+
+.Cantidad de registros válidos procesados.
+
+.Resumen estadístico de las variables numéricas.
+
+.Agrupación de ventas por producto y por categoría.
+
+.Archivos finales almacenados en formato Parquet.
+
+Autor
+Brayan Camilo Torres Torres
+Estudiante de Ingeniería de Sistemas
+
+ Repositorio del Proyecto
+ https://github.com/bctor95/EDA_Ventas_Spark
+
+Referencias
+Macías, M. & Gómez, M. (2015). Introducción a Apache Spark: para empezar a programar el big data. Editorial UOC.
+
+Montoya Suárez, L. & Gil Restrepo, G. A. (2018). Actualidad e importancia de la implementación de Big Data utilizando las herramientas Hadoop y Spark.
+
+Maldonado, C. V. (2022). Analytics y Big Data. Ciencia de los Datos aplicada al mundo de los negocios. RIL editores.
+
+
